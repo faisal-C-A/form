@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: 'MyFont';
-  src: url('D:/chrome downloads/fonts/Freak out, Go bananas-FontZillion/Fonts/freagn__.ttf') format('truetype');
+  src: url('fonts/freagn__.ttf') format('truetype');
 }
 
 .classStyle{

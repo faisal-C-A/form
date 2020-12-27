@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color:#9fc265;">
+<form>
+
+
+<fieldset class="classStyle">
+<legend class="classTitle">Personal Details</legend>
+<label>First Name</label>
+<input type="text" id="firstName"/><br><br>
+<label>Last Name</label>
+<input type="text" id="lastName" position="firstName"/><br><br>
+<label>Password</label>
+<input type="text" id="password"/><br><br>
+<label>Email Id</label>
+<input type="text" id="emailId"/><br><br>
+
+<span>Gender</span>
+<input type="radio" id="male"/>
+<label>Male</label>
+<input type="radio" id="female"/>
+<label>Female</label><br><br>
+
+<label>Contact#</label>
+<input type="text" id="contact"/><br><br>
+</fieldset>
+
+<fieldset class="classStyle">
+<legend class="classTitle">Qulaification Details</legend>
+
+<label>Qualification</label>
+<select id="qualification">
+	<option>B.sc</option>
+	<option>B.Tech</option>
+</select><br><br>
+<label>Course</label>
+<select id="course">
+	<option>Electronics</option>
+	<option>Chemistry</option>
+</select><br><br>
+
+<label>CGPA</label>
+<input type="text" id="cgpa"/><br><br>
+
+<span>Hobbies</span>
+<input type="checkbox" id="reading"/>
+<label>Reading</label>
+<input type="checkbox" id="playing"/>
+<label>Playing</label>
+<input type="checkbox" id="listeningMusic"/>
+<label>Listening Music</label>
+<input type="checkbox" id="watchingMovies"/>
+<label>Watching Movies</label>
+</fieldset>
+
+<fieldset class="classStyle">
+<label>Address</label><br>
+<textarea id="address" cols="50" rows="5"></textarea>
+</fieldset>
+
+<fieldset class="classStyle">
+<button class="classButton">Submit</button>
+<button class="classButton">Reset</button>
+</fieldset>
+
+</form>
+</body>
+</html>
